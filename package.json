@@ -2,8 +2,11 @@
   "name": "u13_fetchusers",
   "version": "1.0.0",
   "main": "scrint.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "mocha:test:type": "mocha test/type.test.js",
+   "mocha:test:user": "mocha test/user.test.js",
+   "start": "script.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,11 @@
     "url": "https://github.com/migel-ka/U13_fetchUsers/issues"
   },
   "homepage": "https://github.com/migel-ka/U13_fetchUsers#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "node-fetch": "^3.3.2",
+    "sinon": "^18.0.0"
+  }
 }
