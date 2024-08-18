@@ -1,0 +1,19 @@
+{
+  "name": "u13_fetchusers",
+  "version": "1.0.0",
+  "main": "scrint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migel-ka/U13_fetchUsers.git"
+  },
+  "author": "Migelka_Sid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migel-ka/U13_fetchUsers/issues"
+  },
+  "homepage": "https://github.com/migel-ka/U13_fetchUsers#readme",
+  "description": ""
+}
